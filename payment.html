@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="./styles/payment.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <a href="./index.html"><img src="./Image_files/Logo/1hindi_Chai_logo.png" alt="Chai_logo"></a>
+    
+        <form id="searchForm">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input id="searchInput" type="text" placeholder="Find your Love - for Food" required>
+            </div>
+            <div id="productList"></div>
+        </form>
+    
+        <div class="userCart">
+            <i class="fas fa-user"></i>
+            <li id="user-menu">
+                <a id="signInLink" href="#">Sign In</a>
+                <ul class="submenu">
+                    <li><a id="signUp" href="">Sign Up / Log In</a></li>
+                    <hr>
+                    <li><a href="#">My Account</a></li>
+                    <li><a id="myOrder" href="">My Orders</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Review My Purchase</a></li>
+                    <li><a href="#">Recently Viewed</a></li>
+                    <li><a href="#">Help & Contact</a></li>
+                    <li><a href="#">Design Services</a></li>
+                    <hr>
+                    <li><a href="#">Gift Card</a></li>
+                    <li><a href="#">Chai-iayah Rewards</a></li>
+                    <li><a href="#">Chai-iayah Credit Card</a></li>
+                    <li><a href="#">Chai-iayah Financing</a></li>
+                </ul>
+            </li>
+            <i class="fas fa-shopping-cart"></i>
+            <a href="./cart.html">Cart</a>
+        </div>
+    
+    </div>
+    <hr>
+
+    <!-- menu -->
+    <div class="menu">
+        <li>
+            <a href="#">Chai</a>
+            <ul class="submenu">
+                <li><a data-name="Adrak vali Chai" data-price="50" data-image="./Image_files/Tea/Ginger-Cinnamon.jpg"
+                        href="">Adrak vali Chai</a></li>
+                <li><a data-name="Kashmiri Kahwa" data-price="45" data-image="./Image_files/Tea/Kashmiri_kahwa.jpg"
+                        href="">Kashmiri Kahwa</a></li>
+                <li><a data-name="Irani Chai" data-price="55" data-image="./Image_files/Tea/Irani_tea.jpg" href="">Irani
+                        Chai</a></li>
+                <li><a data-name="Green Tea" data-price="40" data-image="./Image_files/Tea/Green_tea.jpg" href="">Green
+                        Tea</a></li>
+                <li><a data-name="ButterFly Pea Chai" data-price="70"
+                        data-image="./Image_files/Tea/ButterFly_pea_tea.jpg" href="">ButterFly Pea Chai</a></li>
+                <li><a data-name="Chai - Makhan maar ke" data-price="50" data-image="./Image_files/Tea/Butter_tea1.jpg"
+                        href="">Chai - Makhan maar ke</a></li>
+                <li><a data-name="Kesar Chai" data-price="80" data-image="./Image_files/Tea/Kesar_tea.jpg" href="">Kesar
+                        Chai</a></li>
+                <li><a data-name="Tulsi Chai" data-price="40" data-image="./Image_files/Tea/Tulsi_tea.jpg" href="">Tulsi
+                        Chai</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Coffee</a>
+            <ul class="submenu">
+                <li><a data-name="Americano" data-price="80" data-image="./Image_files/Coffee/Americano_coffee.jpg"
+                        href="">Americano</a></li>
+
+                <li><a data-name="Latte" data-price="100" data-image="./Image_files/Coffee/Latte.jpg" href="">Latte</a>
+                </li>
+
+                <li><a data-name="Caffe mocha" data-price="120" data-image="./Image_files/Coffee/Caffe mocha.jpg"
+                        href="">Caffe mocha</a></li>
+
+                <li><a data-name="Iced Coffee" data-price="70" data-image="./Image_files/Coffee/Iced Coffee.jpg"
+                        href="">Iced Coffee</a></li>
+
+                <li><a data-name="Caffe Macchiato" data-price="90"
+                        data-image="./Image_files/Coffee/Caffe Macchiato .jpg" href="">Caffe Macchiato</a></li>
+
+                <li><a data-name="Cortado" data-price="150" data-image="./Image_files/Coffee/Cortado1.jpg"
+                        href="">Cortado</a></li>
+
+                <li><a data-name="Espresso" data-price="100" data-image="./Image_files/Coffee/Espresso.jpg"
+                        href="">Espresso</a></li>
+
+                <li><a data-name="Frappe" data-price="100" data-image="./Image_files/Coffee/Frappe.jpg"
+                        href="">Frappe</a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Chat-pat</a>
+            <ul class="submenu">
+                <li><a href="#">Chips</a></li>
+                <li><a href="#">Bhakarwadi</a></li>
+                <li><a href="#">Chakli</a></li>
+                <li><a href="#">Pea-nuts</a></li>
+                <li><a href="#">Sev</a></li>
+                <li><a href="#">Khakra</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Nashta</a>
+            <ul class="submenu">
+                <li><a data-name="Poha" data-price="40" data-image="./Image_files/Nashta/Poha.jpg" href="">Poha</a></li>
+                <li><a data-name="Aalu Paratha" data-price="20" data-image="./Image_files/Nashta/Aalu Paratha.jpg"
+                        href="">Aalu Paratha</a></li>
+                <li><a data-name="Dahi Kachori" data-price="60" data-image="./Image_files/Nashta/DahiKachori.jpg"
+                        href="">Dahi Kachori</a></li>
+                <li><a data-name="Dosa" data-price="30" data-image="./Image_files/Nashta/Dosa.jpg" href="">Dosa</a></li>
+                <li><a data-name="Idli" data-price="10" data-image="./Image_files/Nashta/Rawa Idli.jpg" href="">Idli</a>
+                </li>
+                <li><a data-name="Sabudana Khichdi" data-price="35"
+                        data-image="./Image_files/Nashta/Sabudana Khichdi.jpg" href="">Sabudana Khichdi</a></li>
+                <li><a data-name="Samosa" data-price="12" data-image="./Image_files/Nashta/Samosa.jpg"
+                        href="">Samosa</a>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Biscuits</a>
+            <ul class="submenu">
+                <li><a href="#">Hide & Seek</a></li>
+                <li><a href="#">Burbon</a></li>
+                <li><a href="#">Good-Day</a></li>
+                <li><a href="#">Krak-Jack</a></li>
+                <li><a href="#">Little Hearts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Nuts</a>
+            <ul class="submenu">
+                <li><a href="#">Kaju</a></li>
+                <li><a href="#">Badam</a></li>
+                <li><a href="#">Anjeer</a></li>
+                <li><a href="#">Walnut</a></li>
+                <li><a href="#">Pista</a></li>
+                <li><a href="#">Kishmish</a></li>
+            </ul>
+        </li>
+    </div>
+    <hr>
+
+    <main>
+        <h1>Payment Page</h1>
+
+        <div id="payment-container">
+            <!-- Product Summary -->
+            <div id="product-summary">
+                <h2>Your Order</h2>
+                <ul id="order-items">
+                    <!-- Items will be loaded dynamically -->
+                </ul>
+                <p><strong>Total Price:</strong> ₹<span id="total-price">0.00</span></p>
+            </div>
+
+            <div class="verticalLine"></div>
+
+            <!-- Billing Form -->
+            <div id="billing-form">
+                <h2>Billing Details</h2>
+                <form id="payment-form">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+
+                    <label for="address">Address</label>
+                    <textarea id="address" placeholder="Enter your address" required></textarea>
+
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="1111-2222-3333-4444" required>
+
+                    <label for="expiry">Expiry Date</label>
+                    <input type="month" id="expiry" required>
+
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" placeholder="123" required>
+
+                    <button type="submit" id="pay-now">Pay Now</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <!-- top footer -->
+    <div id="topFooter">
+        <div class="aboutUs">
+            <h2>About Us</h2>
+            <a href="#">About Chai-iayah</a>
+            <a href="#">Chai-iayah Rewards</a>
+            <a href="#">Chai-iayah Professional</a>
+            <a href="#">Design Services</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Credit Card</a>
+            <a href="#">Product Collections</a>
+            <a href="#">Careers</a>
+            <a href="#">Advertise With Us</a>
+            <a href="#">Locations</a>
+        </div>
+        <div class="customerService">
+            <h2>Customer Service</h2>
+            <a href="#">My Orders</a>
+            <a href="#">My Account</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Help Center</a>
+            <a href="#">Ideas & Advice</a>
+            <a href="#">Product Recalls</a>
+        </div>
+        <div class="contactUs">
+            <h2>Contact Us</h2>
+            <button class="quickHelpBtn">Quick Help</button>
+            <button class="callUsBtn">Call Us</button>
+            <h4>Customer Service</h4>
+            <p>Open. Close at 7:00 PM ET</p>
+            <a href="#">Weekly Hours</a>
+            <h4>Shopping Assistance</h4>
+            <p>Open. Close at 7:00 PM ET</p>
+            <a href="#">Weekly Hours</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="terms">
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+            <p>Your Privacy Rights & Choices</p>
+        </div>
+        <div class="atTheRate">
+            © 2025 by Chai-iayah LLC, 4 Copley Place, 7th Floor, Boston, MA 02116
+        </div>
+    </footer>
+</body>
+<script src="./scripts/payment.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/search.js"></script>
+</html>
