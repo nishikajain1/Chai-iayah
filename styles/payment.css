@@ -1,0 +1,87 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1,h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.verticalLine {
+    width: 25px;
+    height: 600px;
+    border-left: 1px solid #d4d4d4;
+    margin: auto;
+}
+
+#payment-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+#product-summary,
+#billing-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+#order-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#order-items li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:active {
+    background-color: #1e7e34;
+}
