@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/search.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div id="navbar">
+        <a href="./index.html"><img src="./Image_files/Logo/1hindi_Chai_logo.png" alt="Chai_logo"></a>
+
+        <form id="searchForm">
+            <div class="search-box">
+                <i class="fas fa-search search-icon"></i>
+                <input id="searchInput" type="text" placeholder="Find your Love - for Food" required>
+            </div>
+            <div id="productList"></div>
+        </form>
+
+        <!-- usercart -->
+
+        <div class="userCart">
+            <i class="fas fa-user"></i>
+            <li id="user-menu">
+                <a id="signInLink" href="#">Sign In</a>
+                <ul class="submenu">
+                    <li><a id="signUp" href="">Sign Up / Log In</a></li>
+                    <hr>
+                    <li><a href="#">My Account</a></li>
+                    <li><a id="myOrder" href="#">My Orders</a></li>
+                    <li><a href="#">List</a></li>
+                    <li><a href="#">Review My Purchase</a></li>
+                    <li><a href="#">Recently Viewed</a></li>
+                    <li><a href="#">Help & Contact</a></li>
+                    <li><a href="#">Design Services</a></li>
+                    <hr>
+                    <li><a href="#">Gift Card</a></li>
+                    <li><a href="#">Chai-iayah Rewards</a></li>
+                    <li><a href="#">Chai-iayah Credit Card</a></li>
+                    <li><a href="#">Chai-iayah Financing</a></li>
+                </ul>
+            </li>
+            <i class="fas fa-shopping-cart"></i>
+            <a href="./cart.html">Cart</a>
+        </div>
+
+    </div>
+    <hr>
+
+    <!-- menu -->
+    <div class="menu">
+        <li>
+            <a href="#">Chai</a>
+            <ul class="submenu">
+                <li><a data-name="Adrak vali Chai" data-price="50" data-image="./Image_files/Tea/Ginger-Cinnamon.jpg"
+                        href="">Adrak vali Chai</a></li>
+                <li><a data-name="Kashmiri Kahwa" data-price="45" data-image="./Image_files/Tea/Kashmiri_kahwa.jpg"
+                        href="">Kashmiri Kahwa</a></li>
+                <li><a data-name="Irani Chai" data-price="55" data-image="./Image_files/Tea/Irani_tea.jpg" href="">Irani
+                        Chai</a></li>
+                <li><a data-name="Green Tea" data-price="40" data-image="./Image_files/Tea/Green_tea.jpg" href="">Green
+                        Tea</a></li>
+                <li><a data-name="ButterFly Pea Chai" data-price="70"
+                        data-image="./Image_files/Tea/ButterFly_pea_tea.jpg" href="">ButterFly Pea Chai</a></li>
+                <li><a data-name="Chai - Makhan maar ke" data-price="50" data-image="./Image_files/Tea/Butter_tea1.jpg"
+                        href="">Chai - Makhan maar ke</a></li>
+                <li><a data-name="Kesar Chai" data-price="80" data-image="./Image_files/Tea/Kesar_tea.jpg" href="">Kesar
+                        Chai</a></li>
+                <li><a data-name="Tulsi Chai" data-price="40" data-image="./Image_files/Tea/Tulsi_tea.jpg" href="">Tulsi
+                        Chai</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Coffee</a>
+            <ul class="submenu">
+                <li><a data-name="Americano" data-price="80" data-image="./Image_files/Coffee/Americano_coffee.jpg"
+                        href="">Americano</a></li>
+
+                <li><a data-name="Latte" data-price="100" data-image="./Image_files/Coffee/Latte.jpg" href="">Latte</a>
+                </li>
+
+                <li><a data-name="Caffe mocha" data-price="120" data-image="./Image_files/Coffee/Caffe mocha.jpg"
+                        href="">Caffe mocha</a></li>
+
+                <li><a data-name="Iced Coffee" data-price="70" data-image="./Image_files/Coffee/Iced Coffee.jpg"
+                        href="">Iced Coffee</a></li>
+
+                <li><a data-name="Caffe Macchiato" data-price="90"
+                        data-image="./Image_files/Coffee/Caffe Macchiato .jpg" href="">Caffe Macchiato</a></li>
+
+                <li><a data-name="Cortado" data-price="150" data-image="./Image_files/Coffee/Cortado1.jpg"
+                        href="">Cortado</a></li>
+
+                <li><a data-name="Espresso" data-price="100" data-image="./Image_files/Coffee/Espresso.jpg"
+                        href="">Espresso</a></li>
+
+                <li><a data-name="Frappe" data-price="100" data-image="./Image_files/Coffee/Frappe.jpg"
+                        href="">Frappe</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Chat-pat</a>
+            <ul class="submenu">
+                <li><a href="#">Chips</a></li>
+                <li><a href="#">Bhakarwadi</a></li>
+                <li><a href="#">Chakli</a></li>
+                <li><a href="#">Pea-nuts</a></li>
+                <li><a href="#">Sev</a></li>
+                <li><a href="#">Khakra</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Nashta</a>
+            <ul class="submenu">
+                <li><a data-name="Poha" data-price="40" data-image="./Image_files/Nashta/Poha.jpg" href="">Poha</a></li>
+                <li><a data-name="Aalu Paratha" data-price="20" data-image="./Image_files/Nashta/Aalu Paratha.jpg"
+                        href="">Aalu Paratha</a></li>
+                <li><a data-name="Dahi Kachori" data-price="60" data-image="./Image_files/Nashta/DahiKachori.jpg"
+                        href="">Dahi Kachori</a></li>
+                <li><a data-name="Dosa" data-price="30" data-image="./Image_files/Nashta/Dosa.jpg" href="">Dosa</a></li>
+                <li><a data-name="Idli" data-price="10" data-image="./Image_files/Nashta/Rawa Idli.jpg" href="">Idli</a>
+                </li>
+                <li><a data-name="Sabudana Khichdi" data-price="35"
+                        data-image="./Image_files/Nashta/Sabudana Khichdi.jpg" href="">Sabudana Khichdi</a></li>
+                <li><a data-name="Samosa" data-price="12" data-image="./Image_files/Nashta/Samosa.jpg"
+                        href="">Samosa</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Biscuits</a>
+            <ul class="submenu">
+                <li><a href="#">Hide & Seek</a></li>
+                <li><a href="#">Burbon</a></li>
+                <li><a href="#">Good-Day</a></li>
+                <li><a href="#">Krak-Jack</a></li>
+                <li><a href="#">Little Hearts</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Nuts</a>
+            <ul class="submenu">
+                <li><a href="#">Kaju</a></li>
+                <li><a href="#">Badam</a></li>
+                <li><a href="#">Anjeer</a></li>
+                <li><a href="#">Walnut</a></li>
+                <li><a href="#">Pista</a></li>
+                <li><a href="#">Kishmish</a></li>
+            </ul>
+        </li>
+    </div>
+    <hr>
+
+    <!-- Top Banner -->
+    <div class="banner top-banner">
+        <div class="banner-wrapper">
+            <button class="nav-btn prev" onclick="prevSlide('top')">&#8249;</button>
+            <div class="banner-content" id="top">
+                <img src="./Image_files/Main_image/FirstBanner_image1.jpg" alt="Banner 1" class="active">
+                <img src="./Image_files/Main_image/FirstBanner_image2.jpg" alt="Banner 2">
+            </div>
+            <button class="nav-btn next" onclick="nextSlide('top')">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- chai-Index -->
+
+    <div class="index">
+        <h3>Our Steaming hot Chai, brewed to perfection</h3>
+        <div class="carousel-container">
+            <button class="prev-btn">&#8249;</button>
+            <div class="mainCard">
+                <div class="card">
+                    <img data-name="Adrak vali Chai" data-price="50" data-image="./Image_files/Tea/Ginger-Cinnamon.jpg" src="./Image_files/Tea/Ginger-Cinnamon.jpg" alt="ginerTea">
+                    <h4>Adrak vali Chai</h4>
+                    <p>Price: &#8377; 50 </p>
+                </div>
+                <div class="card">
+                    <img data-name="Kashmiri Kahwa" data-price="45" data-image="./Image_files/Tea/Kashmiri_kahwa.jpg" src="./Image_files/Tea/Kashmiri_kahwa.jpg" alt="kashmiriKahwa">
+                    <h4>Kashmiri Kahwa</h4>
+                    <p>Price: &#8377; 45</p>
+                </div>
+                <div class="card">
+                    <img data-name="Irani Chai" data-price="55" data-image="./Image_files/Tea/Irani_tea.jpg" src="./Image_files/Tea/Irani_tea.jpg" alt="itaniTea">
+                    <h4>Irani Chai</h4>
+                    <p>Price: &#8377; 55</p>
+                </div>
+                <div class="card">
+                    <img data-name="Green Tea" data-price="40" data-image="./Image_files/Tea/Green_tea.jpg" src="./Image_files/Tea/Green_tea.jpg" alt="greenTea">
+                    <h4>Green Tea</h4>
+                    <p>Price: &#8377; 40</p>
+                </div>
+                <div class="card">
+                    <img data-name="ButterFly Pea Chai" data-price="70"
+                        data-image="./Image_files/Tea/ButterFly_pea_tea.jpg" src="./Image_files/Tea/ButterFly_pea_tea.jpg" alt="ButterFly_pea_tea">
+                    <h4>ButterFly Pea Chai</h4>
+                    <p>Price: &#8377; 70</p>
+                </div>
+                <div class="card">
+                    <img data-name="Chai - Makhan maar ke" data-price="50" data-image="./Image_files/Tea/Butter_tea1.jpg" src="./Image_files/Tea/Butter_tea1.jpg" alt="butterTea">
+                    <h4>Chai - Makhan maar ke</h4>
+                    <p>Price: &#8377; 50</p>
+                </div>
+                <div class="card">
+                    <img data-name="Kesar Chai" data-price="80" data-image="./Image_files/Tea/Kesar_tea.jpg" src="./Image_files/Tea/Kesar_tea.jpg" alt="kesarTea">
+                    <h4>Kesar Chai</h4>
+                    <p>Price: &#8377; 80</p>
+                </div>
+                <div class="card">
+                    <img data-name="Tulsi Chai" data-price="40" data-image="./Image_files/Tea/Tulsi_tea.jpg" src="./Image_files/Tea/Tulsi_tea.jpg" alt="tulsiTea">
+                    <h4>Tulsi Chai</h4>
+                    <p>Price: &#8377; 40</p>
+                </div>
+            </div>
+            <button class="next-btn">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- Middle Banner -->
+    <div class="banner middle-banner">
+        <div class="banner-wrapper">
+            <button class="nav-btn prev" onclick="prevSlide('middle')">&#8249;</button>
+            <div class="banner-content" id="middle">
+                <img src="./Image_files/Main_image/SecondBanner_image1.jpg" alt="Banner 3" class="active">
+                <img src="./Image_files/Main_image/SecondBanner_image2.jpg" alt="Banner 4">
+            </div>
+            <button class="nav-btn next" onclick="nextSlide('middle')">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- coffee-Index -->
+
+    <div class="index1">
+        <h3>Coffee - As you love it</h3>
+        <div class="carousel-container1">
+            <button class="prev-btn1">&#8249;</button>
+            <div class="mainCard1">
+                <div class="card1">
+                    <img data-name="Americano" data-price="80" data-image="./Image_files/Coffee/Americano_coffee.jpg" src="./Image_files/Coffee/Americano_coffee.jpg" alt="Americano">
+                    <h4>Americano</h4>
+                    <p>Price: &#8377; 80</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Iced Coffee" data-price="70" data-image="./Image_files/Coffee/Iced Coffee.jpg" src="./Image_files/Coffee/Iced Coffee.jpg" alt="Icedcoffee">
+                    <h4>Iced Coffee</h4>
+                    <p>Price: &#8377; 70</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Caffe Macchiato" data-price="90"
+                        data-image="./Image_files/Coffee/Caffe Macchiato .jpg" src="./Image_files/Coffee/Caffe Macchiato .jpg" alt="caffemacchiato">
+                    <h4>Caffe Macchiato</h4>
+                    <p>Price: &#8377; 90</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Caffe mocha" data-price="120" data-image="./Image_files/Coffee/Caffe mocha.jpg" src="./Image_files/Coffee/Caffe mocha.jpg" alt="caffe Mocha">
+                    <h4>Caffe Mocha</h4>
+                    <p>Price: &#8377; 120</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Cortado" data-price="150" data-image="./Image_files/Coffee/Cortado1.jpg" src="./Image_files/Coffee/Cortado1.jpg" alt="cortado">
+                    <h4>Cortado</h4>
+                    <p>Price: &#8377; 150</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Frappe" data-price="100" data-image="./Image_files/Coffee/Frappe.jpg" src="./Image_files/Coffee/Frappe.jpg" alt="Frappe">
+                    <h4>Frappe</h4>
+                    <p>Price: &#8377; 100</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Espresso" data-price="100" data-image="./Image_files/Coffee/Espresso.jpg" src="./Image_files/Coffee/Espresso.jpg" alt="Espresso">
+                    <h4>Espresso</h4>
+                    <p>Price: &#8377; 100</p>
+                </div>
+                <div class="card1">
+                    <img data-name="Latte" data-price="100" data-image="./Image_files/Coffee/Latte.jpg" src="./Image_files/Coffee/Latte.jpg" alt="Latte">
+                    <h4>Latte</h4>
+                    <p>Price: &#8377; 100</p>
+                </div>
+            </div>
+            <button class="next-btn1">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- Lower Banner -->
+    <div class="banner lower-banner">
+        <div class="banner-wrapper">
+            <button class="nav-btn prev" onclick="prevSlide('lower')">&#8249;</button>
+            <div class="banner-content" id="lower">
+                <img src="./Image_files/Main_image/ThirdBanner_image1.jpg" alt="Banner 5" class="active">
+                <img src="./Image_files/Main_image/ThirdBanner_image2.jpg" alt="Banner 6">
+            </div>
+            <button class="nav-btn next" onclick="nextSlide('lower')">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- Nashta-Index -->
+
+    <div class="index2">
+        <h3>Your ever-loyal companion - with Chai and Coffee</h3>
+        <div class="carousel-container2">
+            <button class="prev-btn2">&#8249;</button>
+        <div class="mainCard2">
+            <div class="card2">
+                <img data-name="Poha" data-price="40" data-image="./Image_files/Nashta/Poha.jpg" src="./Image_files/Nashta/Poha.jpg" alt="poha">
+                <h4>Poha</h4>
+                <p>Price: &#8377; 40</p>
+            </div>
+            <div class="card2">
+                <img data-name="Aalu Paratha" data-price="20" data-image="./Image_files/Nashta/Aalu Paratha.jpg" src="./Image_files/Nashta/Aalu Paratha.jpg" alt="aalu Paratha">
+                <h4>Aalu Paratha</h4>
+                <p>Price: &#8377; 20</p>
+            </div>
+            <div class="card2">
+                <img data-name="Dahi Kachori" data-price="60" data-image="./Image_files/Nashta/DahiKachori.jpg" src="./Image_files/Nashta/DahiKachori.jpg" alt="Dahi Kachori">
+                <h4>Dahi Kachori</h4>
+                <p>Price: &#8377; 60</p>
+            </div>
+            <div class="card2">
+                <img data-name="Dosa" data-price="30" data-image="./Image_files/Nashta/Dosa.jpg" src="./Image_files/Nashta/Dosa.jpg" alt="Dosa">
+                <h4>Dosa</h4>
+                <p>Price: &#8377; 30</p>
+            </div>
+            <div class="card2">
+                <img data-name="Idli" data-price="10" data-image="./Image_files/Nashta/Rawa Idli.jpg" src="./Image_files/Nashta/Rawa Idli.jpg" alt="Idli">
+                <h4>Idli</h4>
+                <p>Price: &#8377; 10</p>
+            </div>
+            <div class="card2">
+                <img data-name="Sabudana Khichdi" data-price="35"
+                        data-image="./Image_files/Nashta/Sabudana Khichdi.jpg" src="./Image_files/Nashta/Sabudana Khichdi.jpg" alt="Sabudana Khichdi">
+                <h4>Sabudana Khichdi</h4>
+                <p>Price: &#8377; 35</p>
+            </div>
+            <div class="card2">
+                <img data-name="Samosa" data-price="12" data-image="./Image_files/Nashta/Samosa.jpg" src="./Image_files/Nashta/Samosa.jpg" alt="Samosa">
+                <h4>Samosa</h4>
+                <p>Price: &#8377; 12</p>
+            </div>
+        </div>
+        <button class="next-btn2">&#8250;</button>
+        </div>
+    </div>
+
+    <!-- last banner -->
+    <div class="last-banner">
+        <img src="./Image_files/Main_image/fourthBanner_image1.jpg" alt="Banner 5">
+    </div>
+
+    <!-- emailAddress -->
+    <div class="emailAddress">
+        <div class="leftSection">
+            <h3>Be the first to know about our best deals!</h3>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="rightSection">
+            <input class="email" type="email" placeholder="Email Address">
+            <button class="submitBtn">Submit</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- top footer -->
+    <div id="topFooter">
+        <div class="aboutUs">
+            <h2>About Us</h2>
+            <a href="#">About Chai-iayah</a>
+            <a href="#">Chai-iayah Rewards</a>
+            <a href="#">Chai-iayah Professional</a>
+            <a href="#">Design Services</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Credit Card</a>
+            <a href="#">Product Collections</a>
+            <a href="#">Careers</a>
+            <a href="#">Advertise With Us</a>
+            <a href="#">Locations</a>
+        </div>
+        <div class="customerService">
+            <h2>Customer Service</h2>
+            <a href="cart.html">My Orders</a>
+            <a href="#">My Account</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Return Policy</a>
+            <a href="#">Help Center</a>
+            <a href="#">Ideas & Advice</a>
+            <a href="#">Product Recalls</a>
+        </div>
+        <div class="contactUs">
+            <h2>Contact Us</h2>
+            <button class="quickHelpBtn">Quick Help</button>
+            <button class="callUsBtn">Call Us</button>
+            <h4>Customer Service</h4>
+            <p>Open. Close at 7:00 PM ET</p>
+            <a href="#">Weekly Hours</a>
+            <h4>Shopping Assistance</h4>
+            <p>Open. Close at 7:00 PM ET</p>
+            <a href="#">Weekly Hours</a>
+        </div>
+    </div>
+    <br>
+    <hr>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="terms">
+            <p>Terms of Use</p>
+            <p>Privacy Policy</p>
+            <p>Your Privacy Rights & Choices</p>
+        </div>
+        <div class="atTheRate">
+            © 2025 by Chai-iayah LLC, 4 Copley Place, 7th Floor, Boston, MA 02116
+        </div>
+    </footer>
+
+</body>
+<script src="./scripts/banner.js"></script>
+<script src="./scripts/cardrotation.js"></script>
+<script src="./scripts/index.js"></script>
+<script src="./scripts/learnMore.js"></script>
+<script src="./scripts/search.js"></script>
+</html>
