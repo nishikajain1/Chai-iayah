@@ -1,0 +1,68 @@
+* {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 50px;
+}
+
+.combo-details {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.combo-details h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.combo-details p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.combo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #f7f7f7; */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    /* border: 1px solid #ddd; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.combo:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.combo button {
+    width: 170px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: #896646;
+    border: none;
+}
+
+.combo button:hover {
+    background-color: #a9825a;
+}
+
+/* button { */
+    /* margin: 10px; */
+        /* position: absolute; */
+        /* top: 50%; */
+        /* -ms-transform: translateX(150%);
+        transform: translateX(150%); */
+/* } */
