@@ -1,0 +1,141 @@
+* {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.blackScreen {
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 37%;
+    /* margin: 60px auto; */
+    opacity: 60%;
+    border-radius: 8px;
+}
+
+#formContainer,
+#signUpContainer {
+    color: white;
+    margin: 50px;
+    /* border: 1px solid; */
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    /* padding: 20px; */
+    position: absolute;
+    top: 60px;
+    left: 37%;
+    /* margin: 60px auto; */
+}
+
+#formContainer>h3,
+#signUpContainer>h3 {
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+#fromDetails,
+#signupForm {
+    text-align: center;
+}
+
+h6,
+h4 {
+    padding: 20px;
+}
+
+#fromDetails>input,
+#signupForm>input {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h2 {
+    height: 50px;
+    /* border: 1px solid; */
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+h2:hover {
+    background-color: #896646;
+    color: white;
+}
+
+span {
+    color: rgb(248, 86, 86);
+}
+
+#loginredirect {
+    font-weight: bold;
+}
+
+#loginredirect:hover {
+    cursor: pointer;
+}
+
+
+/* checkBox */
+
+
+#checkbox {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid; */
+}
+
+.showPassword {
+    border: 3px solid;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    /* .blackScreen {
+        width: 400px;
+        height: 600px;
+        position: absolute;
+        top: 6px;
+        left: auto;
+    }
+
+    .loginImg {
+        width: 400px;
+        height: 600px;
+        position: absolute;
+        top: 6px;
+        left: auto;
+    } */
+
+    .box {
+        width: 400px;
+        height: 600px;
+        margin: 60px auto;
+    }
+
+    #formContainer,
+    #signUpContainer,
+    .loginImg,
+    .blackScreen {
+        top: auto !important;
+        left: auto !important;
+    }
+}
