@@ -32,12 +32,6 @@ Frontend | Backend | Fullstack
 ## Deplolyed App
 Frontend: https://nishikajain1.github.io/Chai-iayah/
 
-## Directory Structure
-my-app/
-├─ backend/
-├─ frontend/
-│  ├─ ...
-
 
 ## Features
 
