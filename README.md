@@ -6,6 +6,17 @@ A celebration of chai culture, inspired by the warm and inviting call of local c
 Explore a world where every sip tells a story steeped in tradition, healing, and comfort. From the rich aroma of freshly brewed chai to a variety of accompaniments like biscuits, snacks, and more, we aim to create an experience that feels like home.
 Find your love for food and discover the essence of India’s chai heritage, brewed to perfection just for you.
 
+![image](https://github.com/user-attachments/assets/dbbe98b9-4f8c-4fe6-b9c0-02cb38e12275)
+
+![image](https://github.com/user-attachments/assets/c7b0e185-fe04-4fb0-9d82-0545afc26639)
+
+![image](https://github.com/user-attachments/assets/56ccffda-cd1d-4594-a697-b76067e2bf56)
+
+![image](https://github.com/user-attachments/assets/fb8934bf-13f5-4077-84e2-bed18576bdb4)
+
+
+
+
 # 💻 Tech Stack:
 1. HTML
 2. CSS
@@ -41,8 +52,6 @@ Shopping Cart and User Login Pages: Integrated placeholders for cart and login f
 
 Footer Links: Useful support, legal, and discount information for users.
 
-
-## screenshots 
 
 
 
