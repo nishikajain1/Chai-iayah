@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="blackScreen"></div>
+        <div style="
+                position: absolute;
+                top: 60px;
+                left: 37%;
+                /* margin: 60px auto; */
+                border-radius: 8px;
+                width: 400px; height: 600px; background-image: url('./Image_files/Main_image/LogInImg1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;
+                z-index: -1;" class="loginImg"></div>
+
+        <div id="signUpContainer">
+            <h3>Sign Up</h3>
+            <form id="signupForm">
+                <input id="email" type="email" placeholder="Enter your Email" required />
+                <br>
+                <input id="password" type="password" placeholder="Create Password" required />
+                <br>
+
+                <div id="checkbox">
+                    <label class="checkboxlabel">
+                        <input type="checkbox" class="showPassword"></label>
+                    <h5>Show Password</h5>
+                </div>
+
+
+
+                <h6>By continuing, I agree to the <span>Terms & Privacy Policy</span> </h6>
+                <!-- <button id="signupBtn">Sign Up</button> -->
+                <h2 id="signupBtn">Sign Up</h2>
+                <h4>Already Signed In? <span id="loginredirect">Log In</span> here</h4>
+                <h6>Have trouble signing in? <span>Get Help</span></h6>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./scripts/signUp.js"></script>
+
+</html>
